@@ -1,7 +1,0 @@
-gem 'minitest'
-require 'minitest/autorun'
-require_relative '../lib/course'
-require_relative '../lib/duration'
-require_relative '../lib/exceptional_value'
-require_relative '../lib/whole_value'
-require_relative '../lib/name'
