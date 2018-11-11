@@ -1,4 +1,5 @@
 require_relative 'whole_value'
+require_relative './helpers/duration_helper'
 
 class Duration < WholeValue
   include DurationHelper
@@ -21,7 +22,3 @@ class Duration < WholeValue
     "#{self.class}[#{self.quantity}]"
   end
 end
-
-class Days < Duration; end;
-class Weeks < Duration; end;
-class Months < Duration; end;

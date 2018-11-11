@@ -1,0 +1,1 @@
+class Months < Duration; end

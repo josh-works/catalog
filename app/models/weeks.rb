@@ -1,0 +1,1 @@
+class Weeks < Duration; end

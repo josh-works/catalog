@@ -1,0 +1,1 @@
+class Days < Duration; end
